@@ -22,7 +22,7 @@ const injectionFileName = program.file;
 
 if (!injectionFileName) return program.help();
 const dirname = Path.dirname(injectionFileName);
-const regexpInject = /(=['"]?)([^'"]+?)([?&]?hash=)([^&'" >]*)/;
+const regexpInject = /(=['"]?)([^'"]+?)([?&]?hash=)([^&'" >]*)/gim;
 const secret = '';
 
 fs.readFile(injectionFileName , 'utf8', (err, raw) => {

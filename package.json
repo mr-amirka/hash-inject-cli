@@ -1,6 +1,6 @@
 {
   "name": "hash-inject-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "This for inject hash of build files into html file",
   "main": "./index.js",
   "keywords": [
