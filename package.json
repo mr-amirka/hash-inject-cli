@@ -1,0 +1,28 @@
+{
+  "name": "hash-inject-cli",
+  "version": "0.0.5",
+  "description": "This for inject hash of build files into html file",
+  "main": "./index.js",
+  "keywords": [
+    "hash inject cli",
+    "hash",
+    "inject",
+    "cli"
+  ],
+  "bin": {
+    "hash-inject": "./index.js"
+  },
+  "author": {
+    "name": "Amir Absalyamov",
+    "email": "mr.amirka@ya.ru",
+    "url": "https://github.com/mr-amirka"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mr-amirka/hash-inject-cli.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.18.0"
+  }
+}
